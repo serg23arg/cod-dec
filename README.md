@@ -7,7 +7,7 @@ Below is a general overview of the encoding and decoding processes performed by 
 Encoding Process:
 
 1)    Dictionary Preparation:
-        * Five different dictionaries are generated from randomized lists of the alphabet and other characters.
+        * Five different dictionaries are generated from randomized lists of the alphabet and other characters. This process allows even two uncoded messages that are exactly            the same to result in completely different codes after the encoding process.
         * Each dictionary is associated with a unique key, which is saved for use in the decoding process.
 
 2)    Message Encoding:
