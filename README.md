@@ -2,7 +2,7 @@ This encoding or encryption method offers considerable complexity, which is posi
 
 For the program to function properly, it is recommended to place it in a folder of it's own. The encoded messages will be automatically exported to this folder. Likewise, to import a message for decoding, it must be added to the folder where the program resides, so that it can be recognized.
 
-Below is a general overview of the encoding and decoding processes performed by the program:
+Below is a general overview of the encoding and decoding processes:
 
 Encoding Process:
 
