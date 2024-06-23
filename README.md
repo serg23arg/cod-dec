@@ -41,6 +41,6 @@ Decoding:
 
 To personalize this app and make it unique for your purposes, you could make, for example, some of the following changes, or all of them:
 
-* Use a different quantity of dictionaries (Be carefull to update the key ordering list too, if you do this).
+* Use a different quantity of dictionaries (Be carefull to update the key ordering list and related code too, if you do this).
 * Use different characteres for the masking process.
 * Change the order of elements of the "base tuple" (abc_tupla), which is essential, as it is the only common ground between all the random stuff.
