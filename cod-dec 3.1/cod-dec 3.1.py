@@ -86,7 +86,7 @@ def exportar(clave1, clave2, clave3, clave4, clave5, mensaje_codificado, mascara
         mensaje_enmascarado = mensaje_enmascarado[:posiciones[indice_p]] + e + mensaje_enmascarado[posiciones[indice_p]:]
         indice_p += 1
     
-    nombre = input('Input desired filename to save:')
+    nombre = input('Input desired filename to save: ')
     nombretxt = f'{nombre}.txt'
     with open(nombretxt, "w") as archivo:
          archivo.write(mensaje_enmascarado)
@@ -96,7 +96,7 @@ def exportar(clave1, clave2, clave3, clave4, clave5, mensaje_codificado, mascara
 # Se importa el mensaje codificado en formato txt, removiéndo en el proceso los carácteres agregados al final de la codificación.
 def importar(mascara):
 
-    archivo = input('Input filename to decode (without extension):')
+    archivo = input('Input filename to decode (without extension): ')
     ruta = f'./{archivo}.txt'
 
     try:
@@ -296,7 +296,7 @@ def menu():
     
     while True:
         system('cls')
-        print('\nInput option:\n---------------\nCode: 1\nDecode: 2\nQuit: Enter')
+        print('\nInput option:\n---------------\nEncode: 1\nDecode: 2\nQuit: Enter')
         opcion = input()
 
         if opcion == '1':
