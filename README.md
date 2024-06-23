@@ -4,7 +4,7 @@ For the program to function properly, it is recommended to place it in a folder 
 
 Below is a general overview of the encoding and decoding processes:
 
-Encoding Process:
+Encoding:
 
 1)    Dictionary Preparation:
         * Five different dictionaries are generated from randomized lists of the alphabet and other characters. This process allows even uncoded messages that are exactly            the same to result in completely different codes after the encoding process.
@@ -24,7 +24,7 @@ Encoding Process:
 
 5)    The encoded message is exported to a txt file to be sent to the recipient.
 
-Decoding Process:
+Decoding:
 
 1)   Unmasking:
        * The characters added to mask the original message are removed.
