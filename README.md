@@ -15,7 +15,7 @@ Encoding:
        * Each character of the message is encoded using the dictionaries in a rotating manner: the first character with the first dictionary, the second with the second                 dictionary, and so on. If the message is longer than the number of dictionaries, the process repeats from the first dictionary.
 
 3)    Key Order Generation:
-       * A list of five numbers, from 1 to 5, is generated, indicating the order in which the keys will be added to the message (e.g., 35421).
+       * A list of five numbers, from 0 to 4, is generated, indicating the order in which the keys will be added to the message (e.g., 30421).
 
        * Each dictionary key is divided into two parts, and the first parts of the keys are inserted at the beginning of the encoded message in the order specified by the               previously generated list, and the second parts of the keys are inserted at the end of the message. Finally, the key order is inserted at the beginning of the message.
 
