@@ -52,11 +52,10 @@ def codificar_mensaje(diccionario1, diccionario2, diccionario3, diccionario4, di
     for c in mensaje_original:
         
         if c in abc_tupla:
-            mensaje_codificado += diccionarios[rotador][c]         
+            mensaje_codificado += diccionarios[rotador][c]
+            rotador = (rotador + 1) % len(diccionarios)
         else:
             mensaje_codificado += c
-        
-        rotador = (rotador + 1) % len(diccionarios)
     
     return mensaje_codificado
 
