@@ -1,4 +1,4 @@
-This encoding or encryption method offers considerable complexity, which is positive for security. The combination of randomly generated keys each time, dictionary rotation, key addition in a specific order, and message masking provide multiple layers of protection against unauthorized decryption attempts, making it possible to decrypt only using this same program. 
+This encoding or encryption method offers considerable complexity, which is positive for security. The combination of randomly generated keys each time, dictionary rotation, key addition in a specific order, and message masking provide multiple layers of protection against unauthorized decryption attempts, making it possible to decode only using this same program. 
 
 For the program to function properly, it is recommended to place it in a folder of it's own. The encoded messages will be automatically exported to this folder. Likewise, to import a message for decoding, it must be added to the folder where the program resides, so that it can be recognized.
 
