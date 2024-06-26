@@ -20,7 +20,7 @@ Encoding:
        * Each dictionary key is divided into two parts. The first parts of the keys are inserted at the beginning of the encoded message in the order specified by the               previously generated list, and the second parts of the keys are inserted at the end of the message. Finally, the key order is inserted at the beginning of the message.
 
 4)    Message Masking:
-        * A percentage of the total of characters at that point is added to the encoded message to mask the real encoded message and make its analysis more difficult.
+        * A percentage of the total of characters at that point is added to the encoded message to mask the real encoded message, and to make its analysis more difficult.
 
 5)    The encoded message is exported to a txt file to be sent to the recipient.
 
