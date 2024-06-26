@@ -17,7 +17,7 @@ Encoding:
 3)    Key Order Generation:
        * A list of five numbers, from 0 to 4, is generated, indicating the order in which the keys will be added to the message (e.g., 30421).
 
-       * Each dictionary key is divided into two parts, and the first parts of the keys are inserted at the beginning of the encoded message in the order specified by the               previously generated list, and the second parts of the keys are inserted at the end of the message. Finally, the key order is inserted at the beginning of the message.
+       * Each dictionary key is divided into two parts. The first parts of the keys are inserted at the beginning of the encoded message in the order specified by the               previously generated list, and the second parts of the keys are inserted at the end of the message. Finally, the key order is inserted at the beginning of the message.
 
 4)    Message Masking:
         * A percentage of additional characters is added to the encoded message to mask the real encoded message and make its analysis more difficult.
